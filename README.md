@@ -8,3 +8,8 @@ Lo scopo è verificare se un numero di telefono è valido o meno, in base a dete
 - Il numero inizia con "3" ed è composto da 10 caratteri.
 
 Se uno qualsiasi di questi criteri è soddisfatto per un numero, il numero viene restituito come valido. In caso contrario, l'elemento dell'array viene contrassegnato come "Non Valido". Se nessun numero valido viene trovato nell'array, il metodo restituirà una stringa vuota. 
+
+Il codice è composto da una singola classe chiamata Telefono.
+
+- public static string Check(string[] input): Questo è il metodo di validazione che accetta un array di stringhe input come argomento. All'interno del metodo, vi sono due cicli for annidati. Il primo ciclo scorre attraverso ciascun elemento dell'array input, mentre il secondo ciclo scorre attraverso ciascun carattere all'interno di ogni stringa. Durante questo processo, il metodo verifica se ogni carattere non è un numero (0-9) e non è il carattere '+'. Se un carattere non soddisfa questi criteri, la stringa corrispondente nell'array viene contrassegnata come "Non Valido".
+- 
